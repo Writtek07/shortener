@@ -1,0 +1,17 @@
+<div class="container text-dark">
+	<div class="card border-dark">
+		<div class="card-header text-center">
+			<h4>Your shortened URL</h4>
+		</div>
+		<div class="card-body text-center">
+			<ul class="list-inline text-center d-flex justify-content-center">
+				<li>
+					<p style="margin-right: 1em;"> Click here to go to your link:-</p>
+				</li>
+				<li>
+					<%= link_to "www.shorturl/#{@url.short_url}.com", @url.original_url %>	
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,16 @@
+<div class="container text-dark">
+	<div class="card border-dark">
+		<div class="card-header text-center">
+			<h4>Enter your long URL</h4>
+		</div>
+		<div class="card-body text-center">
+			<%= form_for @url, local: true do |form| %>
+			<div class="btn-group">
+			  <%= form.label :original_url, class: 'input-group-text' %>
+			  <%= form.text_field :original_url, class: 'inpt form-control rounded-left', placeholder: 'Paste your long url here' %>
+			  <%= form.submit "Shorten URL!", class: 'btn rounded btn-outline-primary' %>
+			 </div>
+			<% end %>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,26 @@
+// Place all the styles related to the urls controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.container {
+	margin-top: 8em;
+	font-family: open-sans;
+	max-width: 55em;
+}
+
+.card {
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.input-group-text {
+	margin-right: 0.2em;
+}
+
+.btn {
+	margin-left: 0.2em;
+}
+
+.inpt {
+	width: 30em;
+	margin-right: 1em;
+}
