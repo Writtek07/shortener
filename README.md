@@ -1,25 +1,29 @@
-# README
+# URL Shortener Service
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Assignment for creating a URL shortening service in ROR.
+
+Requirements:
+
+* Enter a long URL into a form.
+* Submit the form and receive a shortened URL in return.
+* Use the shortened URL to redirect to the original long URL.
+
+The application should
+* have a form for submitting long URLs.
+* generate a unique shortened URL for each long URL submitted.
+* store the long and shortened URLs in a database.
+* redirect users to the original long URL when they visit the shortened URL.
+
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version --> `2.5.0`
 
-* System dependencies
+* Rails version --> `6.0.6`
 
-* Configuration
+Steps to run this:-
+ * Clone this repository
+ * Run `rake db:migrate` to create the database tables
+ * Run `rails s` to start the service.
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# shortener
