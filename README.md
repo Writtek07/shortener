@@ -15,8 +15,6 @@ The application should
 * redirect users to the original long URL when they visit the shortened URL.
 
 
-Things you may want to cover:
-
 * Ruby version --> `2.5.0`
 
 * Rails version --> `6.0.6`
